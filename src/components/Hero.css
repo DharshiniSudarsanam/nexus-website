@@ -1,0 +1,375 @@
+
+/* HERO SECTION */
+
+.hero-section {
+  width: 100%;
+  max-width: 1443px;
+  min-height: 792px;
+  margin: 0 auto;
+  padding: 44px 120px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+/* LEFT CONTENT */
+
+.hero-content h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 64px;
+  line-height: 112%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: #0B1A33;
+  margin-bottom: 17px;
+}
+
+.hero-description {
+  font-family: "Inter", sans-serif;
+  width: 576px;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #48546A;
+  margin-bottom: 15px;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 454px;
+  height: 68px;
+  margin-bottom: 13px;
+}
+
+.hero-primary-btn,
+.hero-secondary-btn {
+  height: 50px;
+  padding: 0 17px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.hero-primary-btn {
+  width: 237px;
+  height: 68px;
+  padding: 16px 9px;
+  border-radius: 16px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #241500;
+  color: #FFFFFF;
+
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0;
+}
+
+.hero-primary-btn span {
+  background: #ffa719;
+  color: #171717;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.hero-secondary-btn {
+  width: 201px;
+  height: 67px;
+  padding: 16px 30px;
+  border: 1px solid #F5A623;
+  border-radius: 16px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 0;
+
+  color: #F5A623;
+}
+
+/* BENEFITS */
+
+.hero-benefits {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 16px;
+  width: 581px;
+  height: 18px;
+  margin-bottom: 17px;
+}
+
+.hero-benefits span {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #5B6678;
+  white-space: nowrap;
+}
+/* REVIEWS */
+
+.hero-reviews {
+  width: 581px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-top: 1px solid #e8e3dc;
+  padding-top: 17px;
+}
+
+.review-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.review-avatars span {
+  width: 32px;
+  height: 32px;
+  margin-left: -5px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 8px;
+  background: #2454ad;
+}
+
+.review-avatars span:nth-child(2) {
+  background: #159c79;
+}
+
+.review-avatars span:nth-child(3) {
+  background: #f3a11a;
+}
+
+.review-avatars span:nth-child(4) {
+  background: #101c36;
+}
+
+.stars {
+  font-family: "Inter", sans-serif;
+  color: #F5A623;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.review-rating small {
+  display: block;
+  color: #68758b;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+/* RIGHT IMAGE GRID */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 184px);
+  column-gap: 20.19px;
+  align-items: start;
+}
+
+.hero-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20.19px;
+  min-width: 0;
+}
+
+/* PROFILE IMAGES */
+
+.profile-card {
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.profile-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* INFORMATION CARDS */
+
+.info-card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+
+/* INFORMATION CARD TYPOGRAPHY */
+
+.info-card h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 112%;
+  letter-spacing: 0;
+  color: #0B1A33;
+  margin: 0 0 8px;
+}
+
+.info-card p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0;
+  color: #191C1F;
+  margin: 0;
+}
+
+
+/* CARD COLORS */
+
+.green-card {
+  background: #dcefd7;
+  height: 226px;
+}
+
+.purple-card {
+  background: #d9c4ed;
+  height: 206px;
+}
+
+.orange-card {
+  background: #ffbd8b;
+  height: 249px;
+}
+
+/* ELEMENT DIMENSIONS */
+
+.arun-card {
+  width: 183px;
+  height: 269px;
+}
+
+.rajesh-card {
+  width: 184px;
+  height: 181.67px;
+  margin-top: 16px;
+}
+
+.pooja-card {
+  width: 184px;
+  height: 249px;
+}
+
+/* TABLET */
+
+@media (max-width: 950px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    max-width: 750px;
+    gap: 35px;
+  }
+
+  .hero-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .hero-column {
+    width: 100%;
+  }
+
+  .arun-card,
+  .rajesh-card,
+  .pooja-card {
+    width: 100%;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 550px) {
+  .hero-section {
+    padding: 35px 18px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+  }
+
+  .hero-benefits {
+    gap: 9px;
+  }
+
+  .hero-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 10px;
+  }
+
+  .hero-column {
+    gap: 12px;
+  }
+
+  .arun-card,
+  .rajesh-card,
+  .pooja-card {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .profile-card img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  .info-card {
+    height: auto;
+    min-height: 180px;
+  }
+}

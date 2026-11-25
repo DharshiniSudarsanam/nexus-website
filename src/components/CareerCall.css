@@ -1,0 +1,304 @@
+
+/* CAREER CALL SECTION */
+
+.career-call-section {
+  width: 100%;
+  padding: 45px 24px;
+  box-sizing: border-box;
+  background: #faf6ee;
+}
+
+.career-call-container {
+  width: 100%;
+  max-width: 1190px;
+  min-height: 360px;
+  margin: 0 auto;
+  padding: 28px 38px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 30px;
+  align-items: center;
+
+  background: #0d1b35;
+  border-radius: 22px;
+}
+
+/* LEFT CONTENT */
+
+.career-call-content {
+  color: #ffffff;
+}
+
+.career-call-content h2 {
+  max-width: 440px;
+  font-size: 45px;
+  line-height: 1.12;
+  letter-spacing: -0.8px;
+  margin: 0 0 12px;
+}
+
+.career-call-intro {
+  max-width: 470px;
+  color: #aab5c8;
+  font-size: 30px;
+  line-height: 1.6;
+  margin: 0 0 22px;
+}
+
+/* POINTS */
+
+.career-call-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.career-call-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin-bottom: 10px;
+
+  color: #c5cede;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.career-call-points li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: #263e60;
+  color: #ffa51b;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* DIVIDER */
+
+.career-call-divider {
+  width: 100%;
+  max-width: 520px;
+  height: 1px;
+  background: #263650;
+  margin: 22px 0 15px;
+}
+
+/* SOCIAL PROOF */
+
+.career-call-social-proof {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.career-call-avatars {
+  display: flex;
+  align-items: center;
+}
+
+.career-call-avatars span {
+  width: 27px;
+  height: 27px;
+  border: 2px solid #0d1b35;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: -7px;
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.avatar-one {
+  background: #3267cb;
+}
+
+.avatar-two {
+  background: #168d75;
+}
+
+.avatar-three {
+  background: #f3a21c;
+}
+
+.career-call-social-proof p {
+  color: #aab5c8;
+  font-size: 10px;
+  margin: 0 0 0 5px;
+}
+
+/* FORM CARD */
+
+.career-call-form-card {
+  width: 100%;
+  max-width: 420px;
+  justify-self: end;
+
+  padding: 22px;
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.career-call-form-card h3 {
+  color: #142039;
+  font-size: 35px;
+  margin: 0 0 5px;
+}
+
+.form-subtitle {
+  color: #778195;
+  font-size: 15px;
+  margin: 0 0 15px;
+}
+
+/* FORM */
+
+.career-call-form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.form-group label {
+  color: #536078;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 38px;
+  padding: 0 11px;
+  box-sizing: border-box;
+
+  border: 1px solid #e5dfd5;
+  border-radius: 7px;
+  outline: none;
+
+  background: #fdfbf8;
+  color: #526078;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #ffa51b;
+}
+
+.form-group input::placeholder {
+  color: #929baa;
+}
+
+/* SUBMIT BUTTON */
+
+.career-call-submit {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 9px;
+
+  background: #ffa51b;
+  color: #142039;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(255, 165, 27, 0.2);
+}
+
+.career-call-submit span {
+  margin-left: 5px;
+}
+
+/* PRIVACY NOTE */
+
+.privacy-note {
+  color: #929baa;
+  font-size: 9px;
+  margin: -3px 0 0;
+}
+
+/* TABLET */
+
+@media (max-width: 850px) {
+  .career-call-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 25px;
+  }
+
+  .career-call-content h2 {
+    font-size: 24px;
+  }
+
+  .career-call-form-card {
+    padding: 17px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .career-call-section {
+    padding: 30px 18px;
+  }
+
+  .career-call-container {
+    grid-template-columns: 1fr;
+    padding: 25px 18px;
+    gap: 25px;
+  }
+
+  .career-call-content h2 {
+    font-size: 26px;
+  }
+
+  .career-call-form-card {
+    max-width: none;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 380px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
